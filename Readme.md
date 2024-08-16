@@ -19,24 +19,31 @@ The primary goal of this project is to create a cost-effective and reliable syst
 
 ### List of Materials
 - **Raspberry Pi Pico WH**: Microcontroller with built-in Wi-Fi, used as the main processing unit.
+
 ![pico-wh](https://hackmd.io/_uploads/rkDogUo9A.png)
 
 - **DHT11 Temperature and Humidity Sensor**: Sensor used to measure temperature and humidity.
+
 ![DHT11-sensor](https://hackmd.io/_uploads/SJV2gUi9C.png)
 
 - **RGB LED Module**: Provides visual feedback when readings are taken.
+
 ![led-module](https://hackmd.io/_uploads/B1GpxIs9R.png)
 
 - **Piezo Speaker**: Emits a sound to indicate data logging.
+
 ![piezo-speaker](https://hackmd.io/_uploads/BJRTxIo9R.png)
 
 - **Jumper Wires**: Used for connections between the Pico and other components.
+
 ![jumper-wires](https://hackmd.io/_uploads/H1R-WIo5C.png)
 
 - **Breadboard**: For prototyping the circuit.
+
 ![bread-board](https://hackmd.io/_uploads/SJxm-8s9A.png)
 
 - **Cable Stripper**: For stripping cables in a clean professional way (optional).
+
 ![cable-stripper](https://hackmd.io/_uploads/BJeD-Lj9C.png)
 
 
