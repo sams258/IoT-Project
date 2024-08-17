@@ -20,7 +20,7 @@ green_led = machine.Pin(17, machine.Pin.OUT)
 blue_led = machine.Pin(18, machine.Pin.OUT)
 
 # Initialize Piezo Speaker
-piezo = machine.Pin(19, machine.Pin.OUT)
+piezo = machine.Pin(9, machine.Pin.OUT)
 
 
 def connect_wifi():
