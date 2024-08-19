@@ -29,8 +29,13 @@ app.use(cors());
 app.post("/api/sensor-data", async (req, res) => {
   try {
     const { temperature, humidity } = req.body;
+    console.log(
+      `Received data - Temperature: ${temperature}°C, Humidity: ${humidity}%`
+    ); // Logs temperature and humidity to the console
+
     const newSensorData = new SensorData({ temperature, humidity });
     await newSensorData.save();
+
     res.status(201).send("Data logged successfully");
   } catch (err) {
     console.error("Error logging data:", err); // Logs detailed error to the console
